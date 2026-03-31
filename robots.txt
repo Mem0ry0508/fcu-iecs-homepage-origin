@@ -1,0 +1,12 @@
+User-agent: *
+Allow: /
+
+# Block admin/private areas
+Disallow: /admin/
+Disallow: /api/
+Disallow: /private/
+
+# Don't block resources needed for rendering
+# Disallow: /static/
+
+Sitemap: https://iecs.fcu.edu.tw/sitemap.xml
